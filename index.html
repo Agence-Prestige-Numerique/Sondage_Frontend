@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondage | Agence Prestige Numérique</title>
+    <link rel="icon" type="image/png" href="./img/logo_1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <section class="content">
+        <section class="survey-container">
+            <div class="survey-card active">
+                <h2>Bienvenue au sondage</h2>
+                <p>INTRODUCTION</p>
+                <div class="survey-buttons">
+                    <button class="next-btn"><i class="fa-solid fa-forward"></i>Suivant</button>
+                </div>
+            </div>
+
+            <div class="survey-card">
+                <h2><i class="fa-solid fa-database"></i> Collecte de Feedback</h2>
+                <p>Nous souhaitons collecter vos réponses de manière anonyme afin d'améliorer nos services. Acceptez-vous de participer ?</p>
+                <div class="survey-buttons">
+                    <button class="next-btn"><i class="fa-solid fa-circle-check"></i> Accpeter</button>
+                    <button class="prev-btn"><i class="fa-solid fa-circle-xmark"></i> Refuser</button>
+                </div>
+            </div>
+
+            <div class="survey-card">
+                <h2><i class="fa-solid fa-circle-question"></i> Que pensez-vous de nos produits ?</h2>
+                <textarea placeholder="Votre réponse..." required></textarea>
+                <div class="survey-buttons">
+                    <button class="prev-btn"><i class="fa-solid fa-backward"></i> Précédent</button>
+                    <button class="next-btn"><i class="fa-solid fa-forward"></i> Suivant</button>
+                </div>
+            </div>
+            
+            <div class="survey-card">
+                <h2><i class="fa-solid fa-circle-question"></i> Recommanderiez-vous notre entreprise ?</h2>
+                <div class="survey-buttons">
+                    <button class="next-btn"><i class="fa-solid fa-circle-check"></i> Oui</button>
+                    <button class="next-btn"><i class="fa-solid fa-circle-xmark"></i> Non</button>
+                </div>
+            </div>
+            
+            <div class="survey-card">
+                <h2><i class="fa-solid fa-circle-question"></i> Comment pouvons-nous nous améliorer ?</h2>
+                <textarea placeholder="Votre suggestion..." required></textarea>
+                <div class="survey-buttons">
+                    <button class="prev-btn"><i class="fa-solid fa-backward"></i> Précédent</button>
+                    <button class="next-btn"><i class="fa-solid fa-forward"></i> Envoyer</button>
+                </div>
+            </div>
+
+            <div class="survey-card">
+                <h2><i class="fa-solid fa-crown"></i> Merci d'avoir répondu au sondage</h2>
+            </div>
+
+        </section>
+    </section>
+    <div class="info-icon">
+        <i class="fa-solid fa-info-circle"></i>
+        <div class="info-box">
+            <p><strong><i class="fa-solid fa-building"></i> Propriété :</strong> X</p>
+            <p><strong><i class="fa-solid fa-code"></i> Développé par :</strong> <a href="https://agence-prestige-numerique.fr/">Agence Prestige Numérique</a></p>
+            <p><strong><i class="fa-solid fa-code-branch"></i> Version :</strong> 1.0.0-BÊTA</p>
+            <p><strong><i class="fa-solid fa-shield"></i> Sécurité :</strong> Données anonymisées et protégées</p>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
