@@ -2,6 +2,10 @@
 > Système de sondage destiné à recueillir les retours et insights de vos clients de manière simple et efficace.
 
 ### Exemples :
+![Start](./img/start.png)
+![1](./img/1.png)
+![End](./img/end.png)
+![End2](./img/end2.png)
 
 ### Collecte de Feedback 🗒️ :
 - Sondages personnalisables
